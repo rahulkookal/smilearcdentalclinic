@@ -79,7 +79,7 @@
             <!-- HEADER LOGO -->
 			<div class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
                 <div class="header-logo">
-                    <a href="#"><img src="images/logo.svg" alt="" />
+                    <a href="#"><img src="images/logo.jpg" alt="" />
                         <span class="bold600 color-child-6">SMILE ARC</span><span class="color-child-5"> DENTAL CLINIC</span>
                     </a>
                 </div>
@@ -110,35 +110,29 @@
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="mobile-bar-cont">
                     <div class="top-menu-logo">
-                        <a href="#"><img src="images/logo.svg" alt="" />
-                            <span class="bold600 color-child-6">DENTAL</span><span class="color-child-5">CLINIC</span>
+                        <a href="#"><img src="images/logo.jpg" alt="" />
+                            <span class="bold600 color-child-6">SMILE ARC</span><span class="color-child-5"> DENTAL CLINIC</span>
                         </a>
                     </div>
                     <div class="mobile-bar">
                         <div class="show-menu" id="show-menu">
                             <i class="fa fa-bars"></i>
                         </div>
-                        <div class="color-sw-open-1" id="color-sw-open-1">
-                            <i class="fa fa-gear"></i>
-                        </div>
+                        <!--<div class="color-sw-open-1" id="color-sw-open-1">-->
+                            <!--<i class="fa fa-gear"></i>-->
+                        <!--</div>-->
                     </div>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT US</a></li>
+                    <li class="active"><a href="#slider">HOME</a></li>
+                    <li><a href="#aboutus">ABOUT US</a></li>
                     <li class="dropdown">
-                        <a data-toggle="dropdown" href="#">SERVICES</a>
+                        <a href="#service">SERVICES</a>
                     </li>
 					<li class="dropdown">
-                        <a data-toggle="dropdown" href="#">OUR DOCTORS</a>
+                        <a href="#doctors">OUR DOCTORS</a>
                     </li>
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" href="#">BLOG</a>
-                    </li>
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" href="#">PAGES</a>
-                    </li>
-                    <li><a href="contacts.html">CONTACT US</a></li>
+                    <li><a href="#contactus">CONTACT US</a></li>
                 </ul>
             </div>
 		</div>
@@ -269,7 +263,7 @@
 <!-- =========================
      SERVICES
 ============================== -->
-<div class="page-title page-title-about bg-pattern" data-bgcolor="5295BD">
+<div id="aboutus" class="page-title page-title-about bg-pattern" data-bgcolor="5295BD">
     <div class="page-title-overlay">
         <div class="container">
 
@@ -279,7 +273,36 @@
         </div>
     </div>
 </div>
-<div class="serv">
+<!-- =========================
+     ABOUT
+============================== -->
+<div class="about">
+    <div class="container">
+        <div class="row">
+
+            <!-- ABOUT TEXT -->
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-text">
+                <h2 class="section-title"><span class="bold700">ABOUT</span> OUR CLINIC</h2>
+                <p>We provide team-based, comprehensive dental care for children and adults, including patients of all ages who are anxious or have an underlying developmental or medical condition that may add complexity to the management of their oral health.</p>
+                <ul class="text-list">
+                    <li>General Dentistry - preventative and restorative dental care.</li>
+                    <li>Specialized dental care to straighten crooked teeth in children and adults. </li>
+                    <li>Treat diseases of the gums and the placement of dental implants.</li>
+                </ul>
+                <p>We are committed to helping you maintain your oral health as an integral part of your overall health and wellness.</p>
+            </div>
+
+            <!-- ABOUT BACKGROUND -->
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-bg">
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- =========================
+     END ABOUT
+============================== -->
+<div class="serv" id="service">
     <ul id="isotope-filter">
         <li><a class="active" data-filter="*">All services</a></li>
         <li><a data-filter=".dental">Dental services</a></li>
@@ -391,41 +414,11 @@
 <!-- =========================
      END SERVICES
 ============================== -->
- 
-    
-<!-- =========================
-     ABOUT
-============================== -->    
-<div class="about">
-    <div class="container">
-        <div class="row">
-            
-            <!-- ABOUT TEXT -->
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-text">
-                <h2 class="section-title"><span class="bold700">ABOUT</span> OUR CLINIC</h2>
-                <p>We provide team-based, comprehensive dental care for children and adults, including patients of all ages who are anxious or have an underlying developmental or medical condition that may add complexity to the management of their oral health.</p>
-                <ul class="text-list">
-                    <li>General Dentistry - preventative and restorative dental care.</li>
-                    <li>Specialized dental care to straighten crooked teeth in children and adults. </li>
-                    <li>Treat diseases of the gums and the placement of dental implants.</li>
-                </ul>
-                <p>We are committed to helping you maintain your oral health as an integral part of your overall health and wellness.</p>
-            </div>
-            
-            <!-- ABOUT BACKGROUND -->
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-bg">
-            </div>
-            
-        </div>
-    </div>
-</div>
-<!-- =========================
-     END ABOUT
-============================== -->
+
 <!-- =========================
      DOCTORS
 ============================== -->
-<div class="doctors">
+<div class="doctors" id="doctors">
     <div class="container">
         <div class="row">
             
@@ -636,7 +629,7 @@
 <!-- =========================
     TIPS AND FAQ
 ============================== -->
-<div class="tipsfaq">
+<div class="tipsfaq" id="tipsfaq">
     <div class="container">
         <div class="row">
             
@@ -869,7 +862,7 @@
 <!-- =========================
     FOOTER
 ============================== -->
-<div class="footer">
+<div class="footer" id="contactus">
     <div class="container">
         <div class="row">
             
